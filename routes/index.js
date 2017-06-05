@@ -11,11 +11,11 @@ router.get('/about', function(req, res, next) {
 });
 
 router.route('/contact')
-.get('/contact', function(req, res, next) {
+.get(function(req, res, next) {
   res.render('contact', { title: 'VideoCodeShare - a platform for sharing code.'}); 
 })
   .post(function(req, res, next) {
     res.render('thank', { title: 'VideoCodeShare - a platform for sharing code.'}); 
 });
-  
+
 module.exports = router;
