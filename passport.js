@@ -37,7 +37,7 @@ passport.use(new LocalStrategy({
 passport.use(new FacebookStrategy({
     clientID: '1780561938831148',
     clientSecret: '8ff6f61e9d00ff4b8f8131d09b49925e',
-    callbackURL: 'http://localhost:3000/auth/facebook/callback',
+    callbackURL: 'https://videocodeshare.herokuapp.com/auth/facebook/callback',
     profileFields: ['id', 'displayName', 'email']
   },
   function(token, refreshToken, profile, done) {
