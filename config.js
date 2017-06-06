@@ -8,6 +8,6 @@ module.exports = {
       pass: 'demo'
     }
   },
-  dbConnstring: 'mongodb://127.0.0.1:27017/videocodeshare',
+  dbConnstring: 'mongodb://admin:123@ds111622.mlab.com:11622/videocodeshare',
   sessionKey: 'VideoCodeShare'
 }
